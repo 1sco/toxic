@@ -15,5 +15,6 @@ RUN curl https://raw.githubusercontent.com/automl/auto-sklearn/master/requiremen
 
 # Install
 RUN pip3 install \
+	dill \
   git+https://github.com/automl/auto-sklearn.git@development \
   jupyter
